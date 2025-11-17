@@ -60,4 +60,33 @@ body {
     align-items: center;
     padding: 32px;
     margin: 32px;
+    position: relative;
+}
+
+.nav-link{
+    font-size: var(--f-u-6);
+    font-weight: 800;
+   text-decoration: none;
+   color: var(--text-black);
+   transition: border 0.3s ease-in-out;
+}
+
+.nav-link.active,
+.nav-link:hover
+{
+    border-bottom: 8px solid var(--text-black);
+
+}
+
+
+.desktop-nav{
+    display: flex;
+    gap: 32px;
+}
+
+.logo{
+    position: absolute;
+    left: 32px;
+    top: 16px;
+
 }
