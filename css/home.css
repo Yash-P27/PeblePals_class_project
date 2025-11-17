@@ -9,3 +9,22 @@
     justify-content: center;
     padding: 64px;
 }
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-content > h1{
+    color: var(--text-white);
+    text-shadow: var(--text-shadow);
+    font-size: clamp(32px, 4vw, 70px)
+}
+.hero-content > a{
+    color: var(--text-white);
+    background-color: black;
+    border-radius: 32px;
+    text-decoration: none;
+    font-weight: 800;
+    padding: 16px;
+}
