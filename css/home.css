@@ -69,6 +69,7 @@
 .t-text {
     padding-top: 8px;
     padding-bottom: 8px;
+    
 
 
 }
@@ -86,18 +87,25 @@
 }
 
 .benefit-grid{
-    border: 1px solid red;
+
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 16px;
     width: 90%;
-    max-width: 600px;
+    max-width: 800px;
 }
 
 .benefit-box{
     border: 2px solid var(--text-black);
     border-radius: 8px;
     padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    > h2{
+        text-decoration: underline;
+    }
 }
 
 .benefit-box.wide{
@@ -117,4 +125,26 @@
 .blue {
     background-color: var(--blue-light);
     border-radius: 128px 128px 0px 0px;
+}
+
+.bullet{
+    display: flex;
+    gap: 10px;
+    border: 1px solid var(--text-black);
+    border-radius: 32px 4px 4px 32px;
+
+    
+    > .bullet-nr{
+        border-right: 2px solid var(--text-black);
+        width: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        
+    }
+
+    > .bullet-text{
+        text-wrap: nowrap;
+    }
 }
