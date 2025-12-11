@@ -147,4 +147,30 @@
     > .bullet-text{
         text-wrap: nowrap;
     }
+
+
 }
+
+   
+
+.images{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+    
+ 
+}
+
+@media (max-width: 600px) {
+    .images{
+        flex-direction: column;
+    }
+}
+
+.Pictures{
+    -webkit-box-shadow: 2px 4px 15px 2px rgba(0,0,0,0.52);
+    box-shadow: 2px 4px 15px 2px rgba(0,0,0,0.52);
+}
+
+
