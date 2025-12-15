@@ -181,7 +181,14 @@
 
 }
 .Pictures + h2{
-    padding: 15px;
+    margin-top: 15px;
+}
+
+.below-txt{
+
+    display: flex;
+    flex-direction: column;
+
 }
 
 .adopt-btn{
