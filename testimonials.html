@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <script src="/scripts/nav.js" defer></script>
     <script src="/scripts/testimonials.js" defer></script>
 </head>
+
 <body>
     <header class="main-header">
         <img src="./assets/Logo.png" alt="logo" class="logo">
@@ -24,14 +26,31 @@
         <img class="cloud left" src="/assets/cloud_left.png">
         <img class="cloud right" src="/assets/cloud_right.png">
         <!-- this is where all the testimonials will go -->
-        <div id="testimonials-box" class="testimonials-box">
-            
-        </div>
+        <div id="testimonials-box" class="testimonials-box"></div>
+
+
+        <form id="t-form" class="t-form">
+            <div class="stars-row">
+                <b>Rate Us:</b>
+
+            </div>
+            <label>
+                Message: <br>
+                <textarea id="t-message" class="t-form-input"></textarea>
+            </label>
+            <div class="t-bottom-row">
+                <label for="email"><b>Your Email</b></label>
+                <input id="email" class="t-form-input" type="email" placeholder="email">
+                <button type="submit" class="btn">Send</button>
+
+            </div>
+
+        </form>
 
     </main>
     <footer class="main-footer">
-       
-       
+
+
         <div class="footer">
             <div class="links">
                 <h3>Links</h3>
@@ -65,7 +84,8 @@
         </div>
     </footer>
 </body>
- 
+
 </html>
 </body>
+
 </html>

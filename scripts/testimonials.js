@@ -49,11 +49,7 @@ for (let review of testimonialList){
     <div class="testimonial">
         <div class="rating-row">
             <div class="t-stars">
-                <img class="star-img" src="assets/star_yellow.svg">
-                <img class="star-img" src="assets/star_yellow.svg">
-                <img class="star-img" src="assets/star_yellow.svg">
-                <img class="star-img" src="assets/star_black.svg">
-                <img class="star-img" src="assets/star_black.svg">
+                ${stars}
             </div>
               <p class="t-name">~${review.name}</p>
         </div>

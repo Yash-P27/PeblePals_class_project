@@ -205,6 +205,7 @@
     gap:5px;
     display:grid;
     width:90%;
+    max-width: 1200px;
 }
 
 .home-sec-chin{
