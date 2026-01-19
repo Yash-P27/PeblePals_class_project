@@ -1,0 +1,35 @@
+.testimonials-box{
+    position: relative;
+    z-index: 2;
+
+    padding: 32px;
+
+    display: flex;
+    gap: 32px;
+
+    flex-wrap: wrap;
+    max-width: 800px;
+
+}
+
+.testimonial{
+    padding: 32px;
+    border-radius: 32px;
+
+    background: #ffffff;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(152, 222, 245, 1) 150%);
+    max-width: 350px;
+}
+
+.t-rating-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    align-items: center;
+    border-bottom: 1px solid var(--text-black);
+}
+
+.t-message{
+    font-weight: 600;
+    text-align: center;
+}

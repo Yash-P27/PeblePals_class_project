@@ -89,4 +89,35 @@ body {
     left: 32px;
     top: 16px;
 
+    z-index: 99;
+
+}
+
+
+
+.clouds-section {
+    background: #90B7BF;
+    background: linear-gradient(0deg, rgba(144, 183, 191, 1) 0%, rgba(103, 161, 188, 1) 100%);
+    position: relative;
+    min-height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cloud{
+    position: absolute;
+}
+.cloud.left{
+    top: 16px;
+    left: 0;
+}
+.cloud.right{
+    right: 0;
+    top: 32px;
+}
+.cloud.small{
+    left: 33%;
+    top: 16px;
 }
