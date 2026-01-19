@@ -200,4 +200,44 @@
     padding: 8px;
 }
 
+.home-section-blue-imgs{
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:5px;
+    display:grid;
+    width:90%;
+}
 
+.home-sec-chin{
+    height: 40px;
+    justify-content:center;
+    text-align:center;
+    align-items:center;
+    display:flex;
+    background-color: #000;
+ 
+    border-radius: 0 0 10px 10px;
+    >p{
+        color:white;
+       
+        font-size: 20px;
+ 
+    }
+}
+
+.home-sec-img1{
+    background-color:#e7e7dd;
+    border-radius: 10px;
+    > img {
+        width: 100%;
+
+        filter: drop-shadow(5px 27px 41px #000000);
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .home-section-blue-imgs {
+        display: flex;
+        flex-direction: column;
+    }
+}
